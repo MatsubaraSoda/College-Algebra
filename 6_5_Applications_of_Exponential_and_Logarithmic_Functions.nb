@@ -1,0 +1,327 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"6",".","5"," ","Applications"," ","of"," ","Exponential"," ","and"," ","Logarithmic"," ","Functions"}],
+"Title",CellChangeTimes -> {{3910436547.392667`,3910436563.4719687`}},ExpressionUUID -> "1e5dae4a-76bf-44b3-ab4d-0607c2e82b5f"],Cell[
+CellGroupData[
+{Cell[
+"\<Equation 6.2. Compounded Interest: \>","Section",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910436521.818882`,3910436536.976183`},{3910436608.6236115`,3910436718.4724298`},3910441373.1570487`,{3910447209.5188417`,3910447225.1819525`},{3910447605.5408926`,3910447609.6849604`},3910447694.07894`,{3910448584.197629`,3910448592.1173487`}},
+ExpressionUUID -> "c9710d5c-12d7-4c0f-bbc8-ae53b58a7342"],Cell[
+TextData[{"If an initial principal ",StyleBox[
+"P",FontSlant -> "Italic"]," is invested at an annual rate ",StyleBox["r",FontSlant -> "Italic"]," and the interest is compounded ",StyleBox[
+"n",FontSlant -> "Italic"]," times per year, the amount ",StyleBox["A",FontSlant -> "Italic"]," in the account after ",StyleBox[
+"t",FontSlant -> "Italic"]," years is"}],"Text",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {3910448591.181721`},ExpressionUUID -> "67432576-dd29-439c-881d-cfd7314ad39a"],Cell[
+TextData[
+Cell[
+BoxData[StyleBox[RowBox[{RowBox[{"A",RowBox[{"(","t",")"}]}],"=",RowBox[{"P",SuperscriptBox[
+RowBox[{"(",RowBox[{"1","+",FractionBox["r","n"]}],")"}],"nt"]}]}],FontSlant -> "Italic"]],
+CellGroupingRules -> {"GroupTogetherGrouping",10001.`},CellChangeTimes -> {{3910436759.5387807`,3910436761.304178`},{3910436800.2250786`,3910436838.9453635`},3910436888.970055`,3910441373.1570487`,{3910447187.6848917`,3910447209.5188417`}},
+TextAlignment -> Center,ExpressionUUID -> "6e91b953-db7d-4fd3-a8ab-e5865ba26f5c"]],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {3910447608.6628795`,3910447694.0799403`},
+TextAlignment -> Center,ExpressionUUID -> "ca01ab60-3d25-453a-90c3-1b97cddd7344"],Cell[
+TextData[
+{"Example"," ","6",".","5",".","1",StyleBox[RowBox[{"."," "}]],"Suppose",StyleBox[
+RowBox[{" ","$"}]],"2000"," ","is"," ","invested"," ","in"," ","an"," ","account"," ","which"," ","offers"," ","7",".","125",StyleBox[
+RowBox[{"%"," "}]],"compounded"," ","monthly",".","\n"}],"Text",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910436906.665347`,3910436948.279679`},3910446879.0740595`},
+ExpressionUUID -> "36f9d582-c268-423a-846b-40a0515ea926"],Cell[
+TextData[{"Express the amount ",StyleBox[
+"A ",FontSlant -> "Italic"],"in the account as a function of the term of the investment ",StyleBox[
+"t",FontSlant -> "Italic"]," in years."}],"ItemNumbered",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910436953.7455816`,3910436998.4311867`},{3910437182.0309277`,3910437182.6070337`},3910441363.594719`},
+ExpressionUUID -> "8f5ad5d8-7c14-4973-8d00-bb4b2f432c7f"],Cell[
+"\<How much is in the account after 5 years?\>",
+"ItemNumbered",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910437051.0630383`,3910437062.3115115`},{3910437183.1431546`,3910437183.4872327`},3910441363.594719`},
+ExpressionUUID -> "9f600988-bd9a-4c1b-bafc-f649ab00d4da"],Cell[
+"\<How long will it take for the initial investment to double?\>",
+"ItemNumbered",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910437064.5222034`,3910437085.5269375`},{3910437184.0713634`,3910437184.462452`},3910441363.594719`},
+ExpressionUUID -> "99dac1a6-aa57-4df9-b6b1-0d85adfbcd08"],Cell[
+TextData[{"Find"," ","and"," ","interpret"," ","the"," ","average"," ","rate"," ","of"," ","change"," ","of"," ","the"," ","amount"," ","in"," ","the"," ","account"," ","from"," ","the"," ","end"," ","of"," ","the"," ","fourth"," ","year"," ","to"," ","the"," ","end"," ","of"," ","the"," ","fifth"," ","year",StyleBox[
+RowBox[{","," "}]],"and"," ","from"," ","the"," ","end"," ","of"," ","the"," ","thirty","-","fourth"," ","year"," ","to"," ","the"," ","end"," ","of"," ","the"," ","thirty","-","fifth"," ","year","."}],
+"ItemNumbered",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910437090.3198557`,3910437145.10322`},{3910437186.21527`,3910437186.542615`},3910441363.5957193`},
+ExpressionUUID -> "47924af8-f52f-4803-8044-f866dd34455d"],Cell[
+BoxData[RowBox[{RowBox[
+{"A","[","t_","]"}]," ",":=",RowBox[{"2000"," ",SuperscriptBox[RowBox[{"(",RowBox[
+{"1","+",FractionBox[RowBox[{"Rationalize","[","0.07125","]"}],"12"]}],")"}],RowBox[
+{"12"," ","t"}]]}]}]],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {3910441300.3270082`,3910446879.075061`},CellLabel -> "In[1]:= ",
+ExpressionUUID -> "91bc12c7-cbf9-4c0f-b983-06997147ac0c"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"Manipulate","[",RowBox[{RowBox[{"Plot","[",RowBox[{RowBox[{"P",SuperscriptBox[
+RowBox[{"(",RowBox[{"1","+",FractionBox["r","n"]}],")"}],RowBox[{"n"," ","t"}]]}],",",RowBox[
+{"{",RowBox[{"t",",","0",",","6"}],"}"}]}],"]"}],",",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[
+{"P",",","2000",",","\"Initial Principal:\""}],"}"}],",","0",",","5000",",","100"}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"r",",","0.07125",",","\"Annual Rate:\""}],"}"}],",","0.0",",","1.0"}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"n",",","12",",","\"Times Per Year\""}],"}"}],",","1",",","12",",","1"}],"}"}]}],"]"}]],
+"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910438537.7383413`,3910438566.7428493`},{3910438604.3350487`,3910438717.639332`},{3910438949.8016005`,3910438949.9366307`},{3910439012.6569242`,3910439018.831397`},{3910439061.6245575`,3910439061.824115`},{3910439104.8243923`,3910439144.7761097`},{3910439204.0405493`,3910439204.7847166`},{3910439252.8171144`,3910439290.0562997`},{3910439326.2806616`,3910439426.312156`},3910446879.075061`},
+CellLabel -> "In[2]:= ",ExpressionUUID -> "8420cc4c-766d-44a0-9dcb-d0b06da40295"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[n$$,12],Set[P$$,2000],Set[r$$,0.07125`],Set[
+Typeset`show$$,True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{{Hold[
+P$$],2000,"Initial Principal:"},0,5000,100},{{Hold[r$$],0.07125`,"Annual Rate:"},0.`,1.`},{{Hold[
+n$$],12,"Times Per Year"},1,12,1}}],Set[Typeset`size$$,Automatic],Set[Typeset`update$$,
+0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},DynamicBox[Manipulate`ManipulateBoxes[
+1,StandardForm,RuleDelayed["Variables",{Set[n$$,12],Set[P$$,2000],Set[r$$,0.07125`]}],
+RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Times[P$$,Power[Plus[1,Times[r$$,Power[n$$,-1]]],Times[n$$,
+t]]],{t,0,6}]],RuleDelayed["Specifications",{{{P$$,2000,"Initial Principal:"},0,5000,100},{{r$$,0.07125`,"Annual Rate:"},0.`,1.`},{{n$$,12,"Times Per Year"},1,12,1}}],
+RuleDelayed["Options",{}],RuleDelayed["DefaultOptions",{}]],SingleEvaluation -> True],
+RuleDelayed[DynamicModuleValues,{}],RuleDelayed[Deinitialization,None],RuleDelayed[
+UntrackedVariables,{Typeset`size$$}],SynchronousInitialization -> True,RuleDelayed[
+UnsavedVariables,{Typeset`initDone$$}],RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],
+ExpressionUUID -> "1ebe5eeb-0424-483d-8cde-7899bf4e22ff"],"Manipulate",Deployed -> True,
+StripOnInput -> False],Manipulate`InterpretManipulate[1]],StandardForm],"Output",
+CellLabel -> "Out[2]= ",ExpressionUUID -> "8d3fc31c-dcf9-4847-9b05-fc3d5a8d926d"]},
+Open],ExpressionUUID -> "c96ed715-6ba1-4cf0-8ba6-1e45d7e865b0"],Cell[
+"\<After 5 years: \>",
+"Item",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910441254.9194813`,3910441269.3830895`},3910441350.969574`,3910446879.0760603`},
+ExpressionUUID -> "bb1c9b36-44d6-471a-a994-656ffb41fd09"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{RowBox[{"A","[","5","]"}],"//","N"}]],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910441283.4070487`,3910441287.439181`},{3910441329.6648345`,3910441350.969574`},3910446879.0760603`},
+CellLabel -> "In[3]:= ",ExpressionUUID -> "63771fff-8e93-4578-80ab-869be2fe96cd"],Cell[
+BoxData[
+"2852.921997159099`",StandardForm],"Output",CellLabel -> "Out[3]= ",ExpressionUUID -> "2729e726-0b24-48aa-b8c3-e922649f1475"]},
+Open],ExpressionUUID -> "a24eb2c8-8077-4faf-a3c7-d5b39cfaba9e"],Cell[
+"\<Let A(t)==4000, we get:\>",
+"Item",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910441119.9429235`,3910441140.456607`},{3910441404.431057`,3910441404.6471057`}},
+ExpressionUUID -> "b2bdb321-643c-4979-a6d2-b0f228ef55b4"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{"Reduce","[",RowBox[{RowBox[{RowBox[{"A","[","t","]"}],"==","4000"}],",","t",",","Reals"}],"]"}],"\[IndentingNewLine]",RowBox[
+{"N","[","%","]"}]}],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910440041.4597993`,3910440046.5839477`},{3910440106.3521423`,3910440170.969097`},{3910440420.2644553`,3910440440.6875587`},{3910440470.8814955`,3910440491.127817`},{3910440560.5283422`,3910440592.327233`},{3910440635.640895`,3910440641.071497`},{3910440682.657446`,3910440684.9280767`},{3910440725.224435`,3910440731.5762396`},{3910440839.312356`,3910440893.543548`},{3910440951.672469`,3910440986.0963936`},{3910441043.6557307`,3910441068.559843`},3910441140.456607`,{3910441291.6878405`,3910441293.7917995`}},
+CellLabel -> "In[4]:= ",ExpressionUUID -> "b5e8bf75-c148-4c4e-b3b4-711b25c73382"],Cell[
+BoxData[
+RowBox[{"t","\[Equal]",RowBox[{"-",FractionBox[RowBox[{"Log","[","2","]"}],RowBox[
+{"12"," ",RowBox[{"(",RowBox[{RowBox[{"7"," ",RowBox[{"Log","[","2","]"}]}],"-",RowBox[
+{"Log","[","3","]"}],"+",RowBox[{"2"," ",RowBox[{"Log","[","5","]"}]}],"-",RowBox[
+{"Log","[","29","]"}],"-",RowBox[{"Log","[","37","]"}]}],")"}]}]]}]}],StandardForm],
+"Output",CellLabel -> "Out[4]= ",ExpressionUUID -> "fe8eb312-3112-4315-b442-1fd9090f9a09"],Cell[
+BoxData[
+RowBox[{"t","\[Equal]","9.757234118308464`"}],StandardForm],"Output",CellLabel -> "Out[5]= ",
+ExpressionUUID -> "80e407ff-9361-43f8-9c8b-c3e8d7278b7d"]},Open],ExpressionUUID -> "fd924593-3a72-4241-81f7-971d8c90435b"],Cell[
+TextData[
+{"The"," ","average"," ","rate"," ","of"," ","change"," ","of"," ","the"," ","amount"," ","in"," ","the"," ","account"," ","from"," ","the"," ","end"," ","of"," ","the"," ","fourth"," ","year"," ","to"," ","the"," ","end"," ","of"," ","the"," ","fifth"," ","year",":","\n"}],
+"Item",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910441431.073124`,3910441441.4888535`},{3910441477.607289`,3910441492.01455`},3910446879.0770597`},
+ExpressionUUID -> "254fa63a-6b5b-4a08-992e-6f281e35c993"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{FractionBox[RowBox[{RowBox[{"A","[","5","]"}],"-",RowBox[{"A","[","4","]"}]}],
+RowBox[{"5","-","4"}]],"//","N"}]],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910441568.4717855`,3910441582.463132`},3910446879.0770597`},
+CellLabel -> "In[6]:= ",ExpressionUUID -> "af700b10-1a72-47fd-bc6e-2fe83bab362a"],Cell[
+BoxData[
+"195.63833581719268`",StandardForm],"Output",CellLabel -> "Out[6]= ",ExpressionUUID -> "ebd14ee5-ffb9-4e86-a19f-a02059fed143"]},
+Open],ExpressionUUID -> "2806ba51-5509-486d-a2a0-dfc69162c136"],Cell[
+TextData[{"And"," ","from"," ","the"," ","end"," ","of"," ","the"," ","thirty","-","fourth"," ","year"," ","to"," ","the"," ","end"," ","of"," ","the"," ","thirty","-","fifth"," ","year",":","\n"}],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},CellChangeTimes -> {{3910441599.270772`,3910441608.439458`},3910446879.0770597`},
+ExpressionUUID -> "2c0638a3-8ed1-42d1-ab4f-e9e9c8085cec"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{FractionBox[RowBox[{RowBox[{"A","[","35","]"}],"-",RowBox[{"A","[","34","]"}]}],
+RowBox[{"35","-","34"}]],"//","N"}]],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10000.`},
+CellChangeTimes -> {{3910441611.92728`,3910441629.5990057`},3910446879.0770597`},
+CellLabel -> "In[7]:= ",ExpressionUUID -> "1fba37b4-0a5a-49cd-80f1-b583b98a64d7"],Cell[
+BoxData[
+"1648.213137705664`",StandardForm],"Output",CellLabel -> "Out[7]= ",ExpressionUUID -> "100111d6-662e-4b8f-9104-8d7b24aa3835"]},
+Open],ExpressionUUID -> "f4bc545f-45f7-4607-b754-808b64d66857"]},Open],ExpressionUUID -> "9242de86-fb28-4e04-942a-1b769587c986"],Cell[
+CellGroupData[
+{Cell[
+"\<Equation 6.3. Continuously Compounded Interest: \>","Section",CellGroupingRules -> {"GroupTogetherGrouping",10001.`},
+CellChangeTimes -> {{3910436521.818882`,3910436536.976183`},{3910436608.6236115`,3910436718.4724298`},3910441373.1570487`,{3910446884.4060755`,3910446890.3859806`},{3910446935.4058084`,3910446971.1344776`},{3910447233.821867`,3910447234.741047`},{3910447629.0768633`,3910447632.652957`},3910447682.771939`,3910448617.6530223`},
+ExpressionUUID -> "3b6eb7fd-0877-492a-9473-bd6e82826cbc"],Cell[
+TextData[{"If an initial principal ",StyleBox[
+"P",FontSlant -> "Italic"]," is invested at an annual rate ",StyleBox["r",FontSlant -> "Italic"]," and the interest is compounded compounded, the amount ",StyleBox[
+"A",FontSlant -> "Italic"]," in the account after ",StyleBox["t",FontSlant -> "Italic"]," years is"}],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10001.`},CellChangeTimes -> {3910448623.0374393`},
+ExpressionUUID -> "6f32ec9b-7fc4-4587-8f04-2dfc83ebbe2f"],Cell[
+TextData[Cell[
+BoxData[
+StyleBox[RowBox[{RowBox[{"A",RowBox[{"(","t",")"}]}],"=",SuperscriptBox["P\[ExponentialE]",
+"rt"]}],FontSlant -> "Italic"]],ExpressionUUID -> "55fbee2b-4539-4a3a-b140-109798710b94"]],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10001.`},CellChangeTimes -> {3910447631.7590384`,3910447682.771939`},
+TextAlignment -> Center,ExpressionUUID -> "095483e1-be99-49db-bd1c-802cea50f6d1"]},
+Open],ExpressionUUID -> "400f75cb-acc7-400e-9c4b-087dcd785e86"],Cell[
+CellGroupData[
+{Cell[
+"\<Equation 6.4. Uninhibited Growth: \>","Section",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},
+CellChangeTimes -> {{3910436521.818882`,3910436536.976183`},{3910436608.6236115`,3910436718.4724298`},3910441373.1570487`,{3910446884.4060755`,3910446890.3859806`},{3910446935.4058084`,3910446971.1344776`},{3910447043.1279106`,3910447144.589836`},{3910447237.5498343`,3910447386.3089676`},{3910447466.831936`,3910447580.5249805`},{3910447661.597101`,3910447686.0070343`},{3910448649.9729185`,3910448652.989306`}},
+ExpressionUUID -> "a32f3079-d585-402b-8237-cffa63ac1907"],Cell[
+TextData[{"If"," ","a"," ","population"," ","increases"," ","according"," ","to"," ","The"," ","Law"," ","of"," ","Uninhibited"," ","Growth",StyleBox[
+RowBox[{","," "}]],"the"," ","number"," ","of"," ","organisms"," ",StyleBox["N",FontSlant -> "Italic"]," ","at"," ","time"," ",StyleBox[
+"t",FontSlant -> "Italic"]," ","is"," ","given"," ","by"," ","the"," ","formula"}],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},CellChangeTimes -> {3910448657.8930435`},
+ExpressionUUID -> "d436b0e8-2eef-4ade-9a72-4cd0a30beb51"],Cell[
+TextData[Cell[
+BoxData[
+RowBox[{StyleBox[RowBox[{"N",RowBox[{"(","t",")"}]}],FontSlant -> "Italic"],StyleBox[
+"=",FontSlant -> "Italic"],RowBox[{SubscriptBox[StyleBox["N",FontSlant -> "Italic"],
+"0"],SuperscriptBox["\[ExponentialE]","rt"]}]}]],ExpressionUUID -> "6d86166a-7361-4c15-9ed4-b9506c5b2b63"]],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},CellChangeTimes -> {{3910447631.7590384`,3910447686.0070343`}},
+TextAlignment -> Center,ExpressionUUID -> "e0b4e681-daa6-4058-afad-01784ffca837"],Cell[
+TextData[
+{"where"," ",Cell[
+BoxData[Cell[
+FormBox[RowBox[{RowBox[{"N",RowBox[{"(","0",")"}]}],"=",SubscriptBox[
+"N","0"]}],TraditionalForm],FormatType -> TraditionalForm,ExpressionUUID -> "297044f9-c8e3-4e1a-8387-d72ea62d3a4a"]],
+ExpressionUUID -> "1f5df7e8-a9d7-47f4-b1de-98b6772f8b59"],StyleBox[RowBox[{" ","("}]],"read",StyleBox[
+RowBox[{" ","\[OpenCurlyQuote]"}]],StyleBox["N",FontSlant -> "Italic"]," ","nought\[CloseCurlyQuote]",StyleBox[
+RowBox[{")"," "}]],"is"," ","the"," ","initial"," ","number"," ","of"," ","organisms"," ","and"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{"k",">","0"}],TraditionalForm],FormatType -> TraditionalForm,
+ExpressionUUID -> "63537d0b-8c2d-4af9-b3e7-4205d7c8bdf9"]],ExpressionUUID -> "28ba581b-4450-4a95-8d87-111a523f34d0"]," ","is"," ","the"," ","constant"," ","of"," ","proportionality"," ","which"," ","satisfies"," ","the"," ","equation",StyleBox[
+RowBox[{" ","("}]],"instantaneous"," ","rate"," ","of"," ","change"," ","of"," ",StyleBox[
+"N",FontSlant -> "Italic"],"(",StyleBox["t",FontSlant -> "Italic"],StyleBox[RowBox[
+{")"," "}]],"at"," ","time",StyleBox[RowBox[{")"," ","="," "}]],StyleBox["k",FontSlant -> "Italic"],StyleBox[
+" ",FontSlant -> "Italic"],StyleBox["N",FontSlant -> "Italic"],"(",StyleBox["t",FontSlant -> "Italic"],")"}],
+"Text",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},CellChangeTimes -> {{3910447671.9519644`,3910447686.0070343`}},
+ExpressionUUID -> "fbe8aa76-90af-4e60-b276-e19929eed527"],Cell[
+TextData[{"Example"," ","6",".","5",".","2",StyleBox[
+RowBox[{"."," "}]],"In"," ","order"," ","to"," ","perform"," ","atherosclerosis"," ","research",StyleBox[
+RowBox[{","," "}]],"epithelial"," ","cells"," ","are"," ","harvested"," ","from"," ","discarded"," ","umbilical"," ","tissue"," ","and"," ","grown"," ","in"," ","the"," ","laboratory",StyleBox[
+RowBox[{"."," "}]],"A"," ","technician"," ","observes"," ","that"," ","a"," ","culture"," ","of"," ","twelve"," ","thousand"," ","cells"," ","grows"," ","to"," ","five"," ","million"," ","cells"," ","in"," ","one"," ","week",StyleBox[
+RowBox[{"."," "}]],"Assuming"," ","that"," ","the"," ","cells"," ","follow"," ","The"," ","Law"," ","of"," ","Uninhibited"," ","Growth",StyleBox[
+RowBox[{","," "}]],"find"," ","a"," ","formula"," ","for"," ","the"," ","number"," ","of"," ","cells",StyleBox[
+RowBox[{","," "}]],"N",StyleBox[RowBox[{" ",","," "}]],"in"," ","thousands",StyleBox[
+RowBox[{","," "}]],"after"," ","t"," ","days","."}],"Text",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},
+CellChangeTimes -> {{3910447726.9089594`,3910447816.0289984`},3910448754.419185`},
+ExpressionUUID -> "e333942d-6021-4830-8bf2-af1a0fd8e2a7"],Cell[
+BoxData[RowBox[{RowBox[
+{"nF","[",RowBox[{"t_",",","n_",",","k_"}],"]"}],":=",RowBox[{"n"," ",SuperscriptBox[
+"E",RowBox[{"k"," ","t"}]]}]}]],"Input",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},
+CellChangeTimes -> {{3910447824.6880083`,3910447913.5901594`},{3910447958.6549206`,3910448249.0989094`},{3910448333.9020147`,3910448334.6780014`},3910448754.419185`},
+CellLabel -> "In[8]:= ",ExpressionUUID -> "7765c349-b7a9-4112-970d-cf9278f7698b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Manipulate","[",RowBox[{RowBox[{"Plot","[",RowBox[{RowBox[
+{"n"," ",SuperscriptBox["E",RowBox[{"k"," ","t"}]]}],",",RowBox[{"{",RowBox[{"t",",","0",",","10"}],"}"}]}],"]"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"n",",","12"}],"}"}],",","0",",","100"}],"}"}],",",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"k",",","0.861755"}],"}"}],",","0",",","1",",","0.01"}],"}"}]}],"]"}]],
+"Input",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},CellChangeTimes -> {{3910448336.8699837`,3910448377.526039`},{3910448468.3261337`,3910448485.1899767`},{3910448524.190527`,3910448532.0459957`},{3910448691.5668707`,3910448723.894001`},3910448754.419185`},
+CellLabel -> "In[9]:= ",ExpressionUUID -> "6032ed05-4b3e-4c6c-8a8d-7719ebc0aaa0"],Cell[
+BoxData[
+TagBox[StyleBox[DynamicModuleBox[{Set[k$$,0.861755`],Set[n$$,12],Set[Typeset`show$$,
+True],Set[Typeset`bookmarkList$$,{}],Set[Typeset`bookmarkMode$$,"Menu"],Typeset`animator$$,Set[
+Typeset`animvar$$,1],Set[Typeset`name$$,"\"untitled\""],Set[Typeset`specs$$,{{{Hold[
+n$$],12},0,100},{{Hold[k$$],0.861755`},0,1,0.01`}}],Set[Typeset`size$$,Automatic],Set[
+Typeset`update$$,0],Set[Typeset`initDone$$,False],Set[Typeset`skipInitDone$$,True]},
+DynamicBox[Manipulate`ManipulateBoxes[1,StandardForm,RuleDelayed["Variables",{Set[
+k$$,0.861755`],Set[n$$,12]}],RuleDelayed["ControllerVariables",{}],RuleDelayed["OtherVariables",
+{Typeset`show$$,Typeset`bookmarkList$$,Typeset`bookmarkMode$$,Typeset`animator$$,Typeset`animvar$$,Typeset`name$$,Typeset`specs$$,Typeset`size$$,Typeset`update$$,Typeset`initDone$$,Typeset`skipInitDone$$}],
+RuleDelayed["Body",Plot[Times[n$$,Power[E,Times[k$$,t]]],{t,0,10}]],RuleDelayed["Specifications",
+{{{n$$,12},0,100},{{k$$,0.861755`},0,1,0.01`}}],RuleDelayed["Options",{}],RuleDelayed[
+"DefaultOptions",{}]],SingleEvaluation -> True],RuleDelayed[DynamicModuleValues,{}],
+RuleDelayed[Deinitialization,None],RuleDelayed[UntrackedVariables,{Typeset`size$$}],
+SynchronousInitialization -> True,RuleDelayed[UnsavedVariables,{Typeset`initDone$$}],
+RuleDelayed[UndoTrackedVariables,{Typeset`show$$,Typeset`bookmarkMode$$}],ExpressionUUID -> "e298ae2d-6a69-41d5-8970-330917bb80b4"],
+"Manipulate",Deployed -> True,StripOnInput -> False],Manipulate`InterpretManipulate[
+1]],StandardForm],"Output",CellLabel -> "Out[9]= ",ExpressionUUID -> "074bd9f8-0832-4a60-8563-40e5ef2253d7"]},
+Open],ExpressionUUID -> "4196bb61-f4b1-46d8-86fc-7bb465f7730f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"Reduce","[",RowBox[{RowBox[{RowBox[{"nF","[",RowBox[
+{"7",",","12",",","k"}],"]"}],"==","5000"}],",","k",",","Reals"}],"]"}],"//","N"}]],
+"Input",CellGroupingRules -> {"GroupTogetherGrouping",10002.`},CellChangeTimes -> {{3910448407.154958`,3910448458.870102`},3910448754.423188`},
+CellLabel -> "In[10]:= ",ExpressionUUID -> "ab6e45ba-76f1-4190-b369-017dcc60c237"],Cell[
+BoxData[
+RowBox[{"k","\[Equal]","0.8617552202326052`"}],StandardForm],"Output",CellLabel -> "Out[10]= ",
+ExpressionUUID -> "22cb19b2-e7db-4f6e-96e8-5bbb761d0bc4"]},Open],ExpressionUUID -> "7656d16d-d767-49e2-a1d8-5d96ba689548"]},
+Open],ExpressionUUID -> "76136be1-e16a-460b-b197-b91ba62d3d0e"],Cell[
+CellGroupData[
+{Cell[
+"\<Equation 6.5. Radioactive Decay:\>","Section",CellChangeTimes -> {{3910448779.5889177`,3910448814.4054394`}},
+ExpressionUUID -> "428e26c4-6bfa-43fc-8723-70f20a6c7172"],Cell[
+TextData[{"The amount of a radioactive element ",StyleBox[
+"A",FontSlant -> "Italic"]," at time ",StyleBox["t",FontSlant -> "Italic"]," is given by the formula"}],
+"Text",CellChangeTimes -> {{3910448821.608952`,3910448855.9809127`}},ExpressionUUID -> "be8d88f3-a000-4432-afcd-ce834e2e8a96"],Cell[
+TextData[
+Cell[
+BoxData[FormBox[RowBox[{RowBox[{"A",RowBox[{"(","t",")"}]}],"=",RowBox[{SubscriptBox[
+"A","0"],SuperscriptBox["e",RowBox[{"k"," ","t"}]]}]}],TraditionalForm]],TextAlignment -> Center,
+FormatType -> TraditionalForm,ExpressionUUID -> "805425eb-23be-4e4f-b82a-304444d11017"]],
+"Text",CellChangeTimes -> {{3910448866.5249186`,3910448883.968083`}},TextAlignment -> Center,
+ExpressionUUID -> "44c17936-356b-44a7-a453-72222479136c"],Cell[
+TextData[{"where ",Cell[
+BoxData[
+FormBox[RowBox[{RowBox[{"A",RowBox[{"(","0",")"}]}],"=",SubscriptBox["A","0"]}],TraditionalForm]],
+FormatType -> TraditionalForm,ExpressionUUID -> "d929050c-3b1f-4fcc-a1ee-f84d6daef7d3"]," is the initial amount of the element and ",Cell[
+BoxData[
+RowBox[{"k","<","0"}]],"InlineCode",ExpressionUUID -> "6424417e-7f36-4fe9-9273-68b80831e754"]," is the constant of proportionality which satisfies the equation."}],
+"Text",CellChangeTimes -> {{3910448907.0401535`,3910448963.5740585`}},ExpressionUUID -> "6ecc8bcb-1946-4c36-89ba-493d87936677"]},
+Open],ExpressionUUID -> "1313b93c-5d32-46a9-abce-f5c1e7d0cad1"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Equation"," ","6",".","6",StyleBox[RowBox[{"."," "}]],"Newton\[CloseCurlyQuote]s"," ","Law"," ","of"," ","Cooling",StyleBox[
+RowBox[{" ","("}]],"Warming","):"}],"Section",CellChangeTimes -> {{3910448990.485348`,3910449006.077441`}},
+ExpressionUUID -> "f57059e8-6836-42aa-abf7-407e44e34b6a"],Cell[
+TextData[{"The temperature ",Cell[
+BoxData[
+"T"],"InlineCode",ExpressionUUID -> "0c982dc5-3207-4ce1-b97c-24c5bb10db76"]," of an object at time ",Cell[
+BoxData[
+"t"],"InlineCode",ExpressionUUID -> "559dedc5-deb8-401e-bd72-f94c3e0b6406"]," is given by the formula"}],
+"Text",CellChangeTimes -> {{3910449003.640049`,3910449045.5732656`}},ExpressionUUID -> "57991819-75ff-4019-b877-b8c76e0a7ac7"],Cell[
+TextData[
+{Cell[
+BoxData[FormBox[RowBox[{RowBox[{"T",RowBox[{"(","t",")"}]}],"=",RowBox[{SubscriptBox[
+"T","a"],"+",RowBox[{RowBox[{"(",RowBox[{SubscriptBox["T","0"],"-",SubscriptBox["T",
+"a"]}],")"}],SuperscriptBox["e",RowBox[{RowBox[{"-","k"}]," ","t"}]]}]}]}],TraditionalForm]],
+FormatType -> TraditionalForm,ExpressionUUID -> "6227c4cc-a9e8-4c58-82e7-a60d3548eea5"],","}],
+"Text",CellChangeTimes -> {{3910449054.6629887`,3910449092.557063`}},TextAlignment -> Center,
+ExpressionUUID -> "f85587c4-13c3-4181-a6b2-a8e544982369"],Cell[
+TextData[{"where ",Cell[
+BoxData[
+FormBox[RowBox[{RowBox[{"T",RowBox[{"(","0",")"}]}],"=",SubscriptBox["T","0"]}],TraditionalForm]],
+FormatType -> TraditionalForm,ExpressionUUID -> "3d9a6698-2077-420c-ba9b-885409a1cb64"]," is the initial temperature of the object, ",Cell[
+BoxData[
+FormBox[SubscriptBox["T","a"],TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "cf1ed175-a342-4c85-8196-491c6b3c039b"]," is the ambient temperature and ",Cell[
+BoxData[
+FormBox[RowBox[{"k",">","0"}],TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "91ddc457-9760-426d-b5e0-a627366200e2"]," is the constant of proportionality which satisfies the equation."}],
+"Text",CellChangeTimes -> {{3910449099.6217737`,3910449159.9413652`}},ExpressionUUID -> "13fd0352-1507-4050-bf88-b633a99b906a"]},
+Open],ExpressionUUID -> "674d68e2-46d5-4029-913a-f60cfa4aad41"],Cell[
+CellGroupData[
+{Cell[
+"\<Equation 6.7. Logistic Growth:\>","Section",CellChangeTimes -> {{3910449189.3762274`,3910449206.3569794`}},
+ExpressionUUID -> "cc7ba20b-dbeb-48d8-a1f0-b02de198bff1"],Cell[
+TextData[{"If"," ","a"," ","population"," ","behaves"," ","according"," ","to"," ","the"," ","assumptions"," ","of"," ","logistic"," ","growth",StyleBox[
+RowBox[{","," "}]],"the"," ","number"," ","of"," ","organisms"," ",Cell[
+BoxData[
+Cell[
+FormBox["N",TraditionalForm],FormatType -> TraditionalForm,ExpressionUUID -> "388aab26-09a3-4f39-88a6-cdfc7bd4ce9f"]]]," ","at"," ","time"," ",Cell[
+BoxData[
+Cell[
+FormBox["t",TraditionalForm],FormatType -> TraditionalForm,ExpressionUUID -> "dd46c563-0b5e-4235-be35-298373161e34"]]]," ","is"," ","given"," ","by"," ","the"," ","equation"}],
+"Text",CellChangeTimes -> {{3910449221.2852573`,3910449271.0291195`}},ExpressionUUID -> "9c5edd68-2920-4e15-9abe-24ddbe089045"],Cell[
+TextData[
+{Cell[
+BoxData[FormBox[RowBox[{RowBox[{"N","(","t",")"}],"=",FractionBox["L",RowBox[
+{"1","+",RowBox[{"C"," ",SuperscriptBox["e",RowBox[{RowBox[{"-","k"}]," ","L"," ","t"}]]}]}]]}],
+TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "c8941c6a-1deb-4837-9660-cb42719f2206"],","}],
+"Text",CellChangeTimes -> {{3910449286.6690645`,3910449306.037433`}},TextAlignment -> Center,
+ExpressionUUID -> "d78960c1-3a58-4abb-8b0a-df9bc1b197e6"],Cell[
+TextData[{"where ",Cell[
+BoxData[
+FormBox[RowBox[{RowBox[{"N",RowBox[{"(","0",")"}]}],"=",SubscriptBox["N","0"]}],TraditionalForm]],
+FormatType -> TraditionalForm,ExpressionUUID -> "9b8f0bc3-e95a-456f-95bb-3c6c6eb3b9b4"]," is the initial population, ",Cell[
+BoxData[
+FormBox["L",TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "3b9ccdb3-56a7-4cb8-895a-3a98f4878057"]," is the limiting population, ",Cell[
+BoxData[
+FormBox["C",TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "c537c737-4f0e-4e7f-87de-028532a7177d"]," is a measure of how much room there is to grow given by"}],
+"Text",CellChangeTimes -> {{3910449320.3411107`,3910449385.149374`}},ExpressionUUID -> "736d50e6-62a8-42f0-9dd8-e3797a030407"],Cell[
+TextData[
+{Cell[
+BoxData[FormBox[RowBox[{"C","=",RowBox[{FractionBox["L",SubscriptBox["N","0"]],"-","1"}]}],
+TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "118d1eca-b80c-4651-9634-08492095af68"],"."}],
+"Text",CellChangeTimes -> {{3910449390.020956`,3910449400.8532887`}},TextAlignment -> Center,
+ExpressionUUID -> "10aa9330-de85-4f4d-963a-08443140cf70"],Cell[
+TextData[{"and ",Cell[
+BoxData[
+FormBox[RowBox[{"k",">","0"}],TraditionalForm]],FormatType -> TraditionalForm,ExpressionUUID -> "ae0b3c38-c123-4c2b-8130-44f6c8d0e43c"]," is the constant of proportionality which satisfies the equation."}],
+"Text",CellChangeTimes -> {{3910449406.376058`,3910449436.253277`}},ExpressionUUID -> "7e427137-ebb8-4898-abf5-ebd871a11cf4"]},
+Open],ExpressionUUID -> "22962f28-72b7-4d9e-842b-aebd08008fb1"]},Open],ExpressionUUID -> "8e415068-9a61-4b34-bba8-a7947744f313"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13.3 for Wolfram Cloud 1.67.0.1 (October 23, 2023)"]
